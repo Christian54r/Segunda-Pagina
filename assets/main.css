@@ -16,6 +16,10 @@ body {
     font-style: normal;
     font-size: 14px;
     padding: 10px 15px;
+    transition: all 0.1s;
+}
+.div-enlaces a:hover {
+    color: white;
 }
 .Twitter {
     margin-top: 10px;
@@ -49,6 +53,18 @@ body {
 .div-socialmedia a {
     text-decoration: none;
     padding: 10px 10px;
+    color: #9C9C9C;
+}
+.div-socialmedia a:hover {
+    color: white;
+}
+.svg-1 { 
+    position: relative;
+    top: 5px;
+}
+.svg-2 {
+    position: relative;
+    top: 2px;
 }
 .div-container-info {
     display: flex;
